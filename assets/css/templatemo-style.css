@@ -225,7 +225,7 @@ html {
     left: 10%;
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background-color: transparent;
+  background-color:  #313543;;
   box-sizing: border-box;
   height: 100vh;  
   max-height: 100vh !important;
@@ -474,8 +474,9 @@ button:hover {
     background-image: url(../images/fourth-main-icon.png);
 }
 .menu .container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  
 }
 
 
@@ -790,6 +791,7 @@ section.contact-me {
     .menu .container {
         padding-left: 15px;
         padding-right: 15px;
+       
     }
 
     .menu.open {
