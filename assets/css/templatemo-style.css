@@ -26,6 +26,7 @@ body {
 
 body {
     overflow-x: hidden;
+    color: #fff;
 }
 
 input,
@@ -471,6 +472,10 @@ button:hover {
 
 .service-item:hover .fourth-service-icon {
     background-image: url(../images/fourth-main-icon.png);
+}
+.menu .container {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 
