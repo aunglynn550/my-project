@@ -136,10 +136,11 @@ html {
 }
 
 .menu .image img {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    text-align: center;
+    width: 138px;
+  height: 173px;
+  border-radius: 49%;
+  text-align: center;
+  object-fit: cover;
 }
 
 .menu .author-content {
@@ -223,7 +224,7 @@ html {
     left: 10%;
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background-color: #a43f49;
+  background-color: transparent;
   box-sizing: border-box;
   height: 100vh;  
   max-height: 100vh !important;
@@ -408,20 +409,26 @@ button:hover {
     transition: all 0.5s;
 }
 
+.service-item a {
+    color: #fff;
+    transition: all 0.5s;
+}
+.service-item a:hover {
+    color: #634e4e;
+  
+}
 .service-item p {
     transition: all 0.5s;
 }
 
-.service-item:hover {
-    background-color: rgba(250, 250, 250, 1);
-}
+
 
 .service-item:hover h4 {
-    color: #1e1e1e;
+    color: #c6c0c0;
 }
 
 .service-item:hover p {
-    color: #4a4a4a;
+    color: #d1cccc;
 }
 
 .service-item .service-icon {
@@ -728,9 +735,12 @@ section.contact-me {
 
 }
 
-.menu .container {
-    padding-left: 0;
-    padding-right: 0;
+/* Utilities */
+.image-icon{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 1280px) and (min-width: 846px) {
